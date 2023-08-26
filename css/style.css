@@ -1,0 +1,112 @@
+body {
+    margin: 0%;
+}
+
+@media screen and (max-width: 576px) {
+    .img{
+        width: 250px;
+        max-width: 100%;
+    }
+    .tribute{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .img{
+        width: 400px;
+        max-width: 100%;
+    }
+    .mobile-tribute{
+        display: none;
+    }
+
+    .header-title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #080808;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.bd-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.img-background{
+    background: linear-gradient(90deg, #73c7df 0%, #85e78f 100%);
+}
+
+.img{
+    width: 700px;
+    max-width: 100%;
+}
+
+.card {
+    border:none;
+    padding: 10px 50px;
+}
+
+.card::after {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.header-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #080808;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.swami-vivekananda{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #080808;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.about-tribute{
+    width: 100%;
+    border: 1px solid #080808;
+    border-radius: 10px;
+    margin-left: auto;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 25px;
+}
+
+.short-title{
+    background: linear-gradient(90deg, #8b73df 0%, #071e86 100%);
+}
+.short-title-card{
+    padding: 10px 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.about-the-legend{
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    padding: 15px;
+}
+.caption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
